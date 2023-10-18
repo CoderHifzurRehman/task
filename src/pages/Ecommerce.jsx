@@ -51,7 +51,7 @@ const Ecommerce = () => {
 
             <div className="mt-4 flex  flex-col ">
               
-              <SparkLine  id="column-sparkLine" key={SparklineAreaData.barName} height="200px" type="Column" data={SparklineAreaData} width="200"
+              <SparkLine  id="column-sparkLine" key={SparklineAreaData.barName} height="200px" type="Column" data={SparklineAreaData} width="600"
                 color={"grey"} 
                 className=" flex gap-4 " >  
               </SparkLine>
